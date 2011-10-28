@@ -1,0 +1,37 @@
+-- pygovoicelib v1.0 --
+
+This is the TELTUB release of a library to use Google Voice API.
+The library uses ClientLogin mechanism and supports Captcha locks on the account as well as session saving.
+
+QUICK OVERVIEW
+--------------
+The main file that you will need is:
+* pygovoicelib.py
+
+All the functions are documented inside the code. For a quick documentation, just do:
+>python
+>>> import pygovoicelib
+>>> help(pygovoicelib)
+
+They have full text that guides you through and very simple source. Please refer to them as an example of proper usage of the library.
+
+INSTALLATION
+--------------
+The library is just a standalone file, and a JSON library if your python is 2.4 or below.
+    pygvoicelib.py
+
+To add it to your python environment, copy it to your python library directory, or put it in the current directory.
+For example, in python 2.4, on RHEL5, the directory is: /usr/lib/python2.4/site-packages/
+
+As for JSON library:
+    For python 2.4, I have placed simplejson and a json.py that is just a compatibility wrapper for simplejson to be usable just like the json library under python 2.5+.
+
+    For python 2.5+, you can simple remove json.py (and simplejson) and it should work okey.
+
+Feel free to contact me with any questions/comments:
+ehsan [dot] foroughi [at] teltub [dot] com
+
+Ehsan Foroughi
+September 2010
+
+visit http://www.teltub.com/ to see our awesome solutions.
