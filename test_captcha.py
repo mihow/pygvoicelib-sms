@@ -12,7 +12,7 @@ def handle_captcha(voice):
     print 'Enter captcha value: '
     voice.captcha_entry = input()
 
-def run_test(user, passwd)
+def run_test(user, passwd):
     print 'We will try random wrong passwords to get a captcha lock ...'
     voice = pygvoicelib.GoogleVoice(user, passwd)
     voice.handle_captcha_entry = handle_captcha

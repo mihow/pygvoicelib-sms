@@ -19,7 +19,7 @@ def handle_save_token(voice):
     print 'Saving Credentials ...'
     save_loc = voice.get_state()
 
-def run_test(uesr, passwd)
+def run_test(uesr, passwd):
     voice = pygvoicelib.GoogleVoice(user, passwd)
     voice.handle_captcha_entry = handle_captcha
     voice.handle_save_token = handle_save_token
